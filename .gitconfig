@@ -1,0 +1,9 @@
+[push]
+	default = simple
+[core]
+	autocrlf = false
+[http]
+	sslVerify = true
+	sslcainfo = ~/certs/ca-bundle.crt
+[color]
+	diff = false
