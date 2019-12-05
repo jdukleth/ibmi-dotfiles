@@ -23,3 +23,5 @@ if [ -d "/QOpenSys/pkgs/lib/nodejs10/bin" ] ; then
 fi
 
 exec /QOpenSys/pkgs/bin/bash
+PATH=/QOpenSys/pkgs/bin:/QOpenSys/pkgs/lib/nodejs10/bin:$PATH
+export PATH
