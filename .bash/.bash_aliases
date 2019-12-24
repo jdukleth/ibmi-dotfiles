@@ -20,3 +20,6 @@ alias ll='ls -al'
 # Log & Config Shortcuts
 alias phplog='tail -f -n 200 /usr/local/zendphp7/var/log/php.log'
 alias phpini='nano /usr/local/zendphp7/etc/php.ini'
+
+# pm2
+alias ipm2='env HOME=/www pm2'
