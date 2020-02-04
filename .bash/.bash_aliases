@@ -18,8 +18,11 @@ alias ccat='pygmentize -O style=monokai -f console256 -g'
 alias ll='ls -al'
 
 # Log & Config Shortcuts
-alias phplog='tail -f -n 200 /usr/local/zendphp7/var/log/php.log'
-alias phpini='nano /usr/local/zendphp7/etc/php.ini'
+alias zsphplog='tail -f -n 200 /usr/local/zendphp7/var/log/php.log'
+alias zsphpini='nano /usr/local/zendphp7/etc/php.ini'
+
+alias phplog='tail -f -n 200 /www/.php/logs/php.log'
+alias phpini='nano /QOpenSys/etc/php/php.ini'
 
 # pm2
 alias ipm2='env HOME=/www pm2'
