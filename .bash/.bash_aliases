@@ -23,3 +23,10 @@ alias phpini='nano /usr/local/zendphp7/etc/php.ini'
 
 # pm2
 alias ipm2='env HOME=/www pm2'
+alias ipm2start='env HOME=/www pm2 start /www/ecosystem.config.js'
+
+# run SQL from bash
+# https://github.com/IBM/ibmi-db2util
+export DB2UTIL_JSON_CONTAINER=array
+alias db2='db2util -o json'
+
