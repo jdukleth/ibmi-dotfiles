@@ -7,6 +7,3 @@
         sslcainfo = ~/certs/ca-bundle.crt
 [color]
         diff = false
-[user]
-        email = jdukleth@softaltern.com
-        name = Jason Dukleth
