@@ -24,6 +24,8 @@ alias zsphpini='nano /usr/local/zendphp7/etc/php.ini'
 alias phplog='tail -f -n 200 /www/.php/logs/php.log'
 alias phpini='nano /QOpenSys/etc/php/php.ini'
 
+alias apilog='tail -f -n 400 /www/.pm2/logs/comedge-api-out.log'
+
 # pm2
 alias ipm2='env HOME=/www pm2'
 alias ipm2start='env HOME=/www pm2 start /www/ecosystem.config.js'
@@ -32,4 +34,3 @@ alias ipm2start='env HOME=/www pm2 start /www/ecosystem.config.js'
 # https://github.com/IBM/ibmi-db2util
 export DB2UTIL_JSON_CONTAINER=array
 alias db2='db2util -o json'
-

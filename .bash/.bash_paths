@@ -1,0 +1,5 @@
+PATH=/QOpenSys/pkgs/lib/nodejs12/bin:$PATH
+export PATH
+
+PATH=/QOpenSys/pkgs/bin:$PATH
+export PATH

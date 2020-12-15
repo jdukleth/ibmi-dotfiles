@@ -16,12 +16,4 @@ if [ -d "$HOME/bin" ] ; then
     export PATH
 fi
 
-# set PATH so it includes the global npm install directory
-if [ -d "/QOpenSys/pkgs/lib/nodejs10/bin" ] ; then 
-    PATH="/QOpenSys/pkgs/lib/nodejs10/bin:$PATH"
-    export PATH
-fi
-
 exec /QOpenSys/pkgs/bin/bash
-PATH=/QOpenSys/pkgs/bin:/QOpenSys/pkgs/lib/nodejs10/bin:$PATH
-export PATH
